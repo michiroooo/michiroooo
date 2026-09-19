@@ -23,7 +23,6 @@ STACK = [
     ]),
     ("VISION", [
         ("opencv", "OpenCV"),
-        ("ultralytics", "Ultralytics"),
         ("onnx", "ONNX"),
         ("mediapipe", "MediaPipe"),
     ]),

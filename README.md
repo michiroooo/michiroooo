@@ -7,8 +7,6 @@
 ### About
 
 - 🏢 &nbsp;Senior AI Architect / Manager at an applied-AI startup
-- 🧭 &nbsp;Interested in the space where **engineering practice** and **team design** meet
-- 🛠 &nbsp;Hands-on with computer vision, LLM serving and agentic system design
 - 📍 &nbsp;Tokyo, Japan
 
 <br>

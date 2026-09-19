@@ -1,8 +1,56 @@
-<p align="center"> 
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img align="center" src="https://github-profile-trophy.vercel.app/?username=michiroooo&row=1&column=7" />
-</a></p><br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/michiroooo/michiroooo/master/assets/header.svg" alt="Michiro Hirai" width="100%">
+</div>
 
-[![](https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/transparent/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/transparent/1-repos-per-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/transparent/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![](https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/transparent/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards) [![](https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/transparent/4-productive-time.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
+<br>
+
+### About
+
+- 🏢 &nbsp;Engineering Manager at **GHELIA Inc.** — leading teams that ship AI products
+- 🧭 &nbsp;Interested in the space where **engineering practice** and **team design** meet
+- 🛠 &nbsp;Hands-on with backend, infrastructure and LLM application development
+- 📍 &nbsp;Tokyo, Japan
+
+<br>
+
+### Tech Stack
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,react,nodejs,go,docker,kubernetes,aws,gcp,postgres,git,githubactions,linux&theme=dark&perline=7">
+  <img src="https://skillicons.dev/icons?i=py,ts,js,react,nodejs,go,docker,kubernetes,aws,gcp,postgres,git,githubactions,linux&theme=light&perline=7" alt="Tech stack">
+</picture>
+
+<br>
+<br>
+
+### Stats
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/github_dark/3-stats.svg">
+  <img src="https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/github/3-stats.svg" alt="Stats">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/github_dark/4-productive-time.svg">
+  <img src="https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/github/4-productive-time.svg" alt="Productive time">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/github_dark/1-repos-per-language.svg">
+  <img src="https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/github/1-repos-per-language.svg" alt="Repos per language">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/github_dark/2-most-commit-language.svg">
+  <img src="https://raw.githubusercontent.com/michiroooo/michiroooo/master/profile-summary-card-output/github/2-most-commit-language.svg" alt="Most commit language">
+</picture>
+
+<sub>Cards are regenerated daily by <a href="https://github.com/vn7n24fzkq/github-profile-summary-cards">github-profile-summary-cards</a> and committed to this repository.</sub>
+
+<br>
+<br>
+
+### Contribution Graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/michiroooo/michiroooo/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/michiroooo/michiroooo/output/github-snake.svg" alt="Contribution snake animation">
+</picture>

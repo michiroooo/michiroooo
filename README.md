@@ -6,7 +6,7 @@
 
 ### About
 
-- 🏢 &nbsp;Engineering Manager at **GHELIA Inc.** — leading teams that ship AI products
+- 🏢 &nbsp;Engineering Manager at a small AI startup — leading teams that ship AI products
 - 🧭 &nbsp;Interested in the space where **engineering practice** and **team design** meet
 - 🛠 &nbsp;Hands-on with backend, infrastructure and LLM application development
 - 📍 &nbsp;Tokyo, Japan

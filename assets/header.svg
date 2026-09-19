@@ -44,7 +44,7 @@
 
     <!-- EDIT ME: one-line tagline -->
     <text x="58" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
-          font-size="17" fill="#cbd5e1">Engineering Manager at a small AI startup</text>
+          font-size="17" fill="#cbd5e1">Senior AI Architect / Manager · applied AI startup in Tokyo</text>
 
     <g opacity="0.9">
       <rect x="0" y="216" width="900" height="4" fill="#1e293b"/>

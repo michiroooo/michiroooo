@@ -21,19 +21,28 @@ STACK = [
         ("cplusplus", "C++"),
         (None, "Objective-C"),
     ]),
+    ("VISION", [
+        ("opencv", "OpenCV"),
+        ("ultralytics", "Ultralytics"),
+        ("onnx", "ONNX"),
+        ("mediapipe", "MediaPipe"),
+    ]),
     ("TRAINING", [
         ("pytorch", "PyTorch"),
         ("lightning", "Lightning"),
         ("huggingface", "Hugging Face"),
+        ("weightsandbiases", "W&B"),
+        ("mlflow", "MLflow"),
     ]),
     ("SERVING", [
         ("vllm", "vLLM"),
-        ("ray", "Ray"),
+        ("fastapi", "FastAPI"),
         ("docker", "Docker"),
         ("googlecloud", "Google Cloud"),
     ]),
     ("AGENTS", [
         ("claudecode", "Claude Code"),
+        ("modelcontextprotocol", "MCP"),
         ("langgraph", "LangGraph"),
         ("pydantic", "Pydantic"),
         ("opentelemetry", "OpenTelemetry"),
@@ -55,6 +64,12 @@ ICON = 17
 GAP = 9
 CHAR_W = 7.05
 SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+
+
+def esc(text):
+    """Escape text for both element content and attribute values."""
+    return (text.replace("&", "&amp;").replace("<", "&lt;")
+                .replace(">", "&gt;").replace('"', "&quot;"))
 
 
 def lift(hex_color, floor=0.42):
@@ -90,7 +105,7 @@ def main(pkg):
     for label, entries in STACK:
         out.append(
             f'<text x="{PAD_X}" y="{y + CHIP_H / 2 + 3.5}" font-family="{SANS}" font-size="10" '
-            f'font-weight="600" fill="#64748b" letter-spacing="1.3">{label}</text>')
+            f'font-weight="600" fill="#64748b" letter-spacing="1.3">{esc(label)}</text>')
         x = PAD_X + LABEL_W
         for slug, name in entries:
             text_w = len(name) * CHAR_W
@@ -99,7 +114,7 @@ def main(pkg):
                 y += ROW_H
                 x = PAD_X + LABEL_W
             out.append(
-                f'<g><title>{name}</title>'
+                f'<g><title>{esc(name)}</title>'
                 f'<rect x="{x:.1f}" y="{y}" width="{chip_w:.1f}" height="{CHIP_H}" rx="{CHIP_H / 2}" '
                 f'fill="#151d38" stroke="#26314f" stroke-width="1"/>')
             tx = x + 13
@@ -111,7 +126,7 @@ def main(pkg):
                 tx += ICON + GAP
             out.append(
                 f'<text x="{tx:.1f}" y="{y + CHIP_H / 2 + 4.5}" font-family="{SANS}" font-size="13" '
-                f'fill="#cbd5e1">{name.replace("&", "&amp;")}</text></g>')
+                f'fill="#cbd5e1">{esc(name)}</text></g>')
             x += chip_w + 8
         y += ROW_H
 

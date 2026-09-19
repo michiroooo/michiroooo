@@ -6,19 +6,16 @@
 
 ### About
 
-- 🏢 &nbsp;Engineering Manager at a small AI startup — leading teams that ship AI products
+- 🏢 &nbsp;Senior AI Architect / Manager at an applied-AI startup
 - 🧭 &nbsp;Interested in the space where **engineering practice** and **team design** meet
-- 🛠 &nbsp;Hands-on with backend, infrastructure and LLM application development
+- 🛠 &nbsp;Hands-on with model training, LLM serving and agentic system design
 - 📍 &nbsp;Tokyo, Japan
 
 <br>
 
 ### Tech Stack
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,ts,js,react,nodejs,go,docker,kubernetes,aws,gcp,postgres,git,githubactions,linux&theme=dark&perline=7">
-  <img src="https://skillicons.dev/icons?i=py,ts,js,react,nodejs,go,docker,kubernetes,aws,gcp,postgres,git,githubactions,linux&theme=light&perline=7" alt="Tech stack">
-</picture>
+<img src="https://raw.githubusercontent.com/michiroooo/michiroooo/master/assets/tech-stack.svg" alt="Tech stack" width="100%">
 
 <br>
 <br>

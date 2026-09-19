@@ -1,9 +1,12 @@
 name: GitHub-Profile-Summary-Cards
 
 on:
-  schedule: # execute every 24 hours
-    - cron: "* */24 * * *"
+  schedule: # execute every day at 00:00 UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -11,17 +14,20 @@ jobs:
     name: generate
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.SUMMARY_CARDS_TOKEN }}
+          # SUMMARY_CARDS_TOKEN is a PAT (read:user, repo) used to include private
+          # contributions. Falls back to the built-in token when it is unset/expired,
+          # in which case only public data is counted.
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_CARDS_TOKEN || secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           # BRANCH_NAME is optional, default to main, branch name to push cards
           BRANCH_NAME: "master"
           # UTC_OFFSET is optional, default to zero
-          UTC_OFFSET: 8 
+          UTC_OFFSET: 9
           # EXCLUDE is an optional comma seperated list of languages to exclude, defaults to ""
           EXCLUDE: ""
-          # AUTO_PUSH is optional, a boolean variable default to true, whether automatically push generated files to desired branch 
+          # AUTO_PUSH is optional, a boolean variable default to true, whether automatically push generated files to desired branch
           AUTO_PUSH: true
